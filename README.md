@@ -18,6 +18,7 @@
 <li><a href="https://www.andreasschrade.com/2017/02/23/android-interview-questions/" rel="nofollow">Android Interview Questions And Answers From Beginner To Advanced</a></li>
 <li><a href="https://github.com/mohsenoid/Android-Interview-Questions">Interview Questions for Senior Android Developers</a></li>
 <li><a href="https://www.interviewbit.com/android-interview-questions/" rel="nofollow">35+ Android Interview Questions</a></li>
+<li><a href="https://www.edureka.co/blog/interview-questions/top-android-interview-questions-for-beginners/ rel="nofollow">Top 50 Android Interview Questions and Answers in 2024</a></li>
 </ul>
 <br>
 Feel free to contribute additional questions or improvements via pull requests.<br><br>
