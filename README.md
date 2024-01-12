@@ -37,8 +37,12 @@
 <p dir="auto">State management in Jetpack Compose involves using state variables annotated with remember or rememberSaveable. Common state types include mutableStateOf for basic state, mutableStateListOf for lists, and derivedStateOf for computed state based on other state variables.</p>
 </li>
 <li>
-<h4 tabindex="-1" dir="auto"><a class="anchor" aria-hidden="true" tabindex="-1"></a>When to use Icon and Image composable function in Jetpack Compose?</h4>
+<h4 tabindex="-1" dir="auto"><a class="anchor" aria-hidden="true" tabindex="-1"></a>When to use Icon and Image composable function?</h4>
 <p dir="auto">If you are working with Material Design icons and want to use the built-in system icons provided by the Material Design guidelines, you should use the <b>Icon</b> composable. If you have custom image assets or graphics that are not part of the standard Material Design icons, you should use the <b>Image</b> composable. <b>Image</b> allows you to load and display bitmap images or other custom drawable resources.</p>
+</li>
+<li>
+<h4 tabindex="-1" dir="auto"><a class="anchor" aria-hidden="true" tabindex="-1"></a>When to use Box and Column layout component?</h4>
+<p dir="auto"><b>Box</b> allows you to position its children elements absolutely. If you need to place elements at specific coordinates within the container, <b>Box</b> is the appropriate choice and If you have elements that need to overlap, <b>Box</b> provides a straightforward way to layer components on top of each other. <b>Column</b> is designed for vertical stacking of elements. If you want to arrange elements in a single column, use <b>Column</b> and When you need a simple linear vertical layout, <b>Column</b> provides an easy and concise way to arrange your UI elements.</p>
 </li>
 </ol>
 <br>
