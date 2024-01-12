@@ -21,5 +21,26 @@
 <li><a href="https://www.edureka.co/blog/interview-questions/top-android-interview-questions-for-beginners/ rel="nofollow">Top 50 Android Interview Questions and Answers in 2024</a></li>
 </ul>
 <br>
+
+## Jetpack Compose Design
+<ol dir="auto">
+<li>
+<h4 tabindex="-1" dir="auto"><a class="anchor" aria-hidden="true" tabindex="-1"></a>What is Jetpack Compose, and how does it differ from the traditional Android View system?</h4>
+<p dir="auto">Jetpack Compose is a modern Android UI toolkit that simplifies UI development through a declarative syntax. Unlike the traditional View system, Compose allows developers to define UI using functions (@Composable) that describe the UI's current state, making it more intuitive and concise.</p>
+</li>
+<li>
+<h4 tabindex="-1" dir="auto"><a class="anchor" aria-hidden="true" tabindex="-1" ></a>Explain the role of @Composable in Jetpack Compose.?</h4>
+<p dir="auto">The @Composable annotation is used to define functions that describe UI components. These functions are responsible for rendering UI elements based on their current state. When the state changes, Compose automatically recomposes and updates only the affected UI components.</p>
+</li>
+<li>
+<h4 tabindex="-1" dir="auto"><a class="anchor" aria-hidden="true" tabindex="-1"></a>How does state management work in Jetpack Compose, and what are the common state types?</h4>
+<p dir="auto">State management in Jetpack Compose involves using state variables annotated with remember or rememberSaveable. Common state types include mutableStateOf for basic state, mutableStateListOf for lists, and derivedStateOf for computed state based on other state variables.</p>
+</li>
+<li>
+<h4 tabindex="-1" dir="auto"><a class="anchor" aria-hidden="true" tabindex="-1"></a>When to use Icon and Image composable function in Jetpack Compose?</h4>
+<p dir="auto">If you are working with Material Design icons and want to use the built-in system icons provided by the Material Design guidelines, you should use the <b>Icon</b> composable. If you have custom image assets or graphics that are not part of the standard Material Design icons, you should use the <b>Image</b> composable. <b>Image</b> allows you to load and display bitmap images or other custom drawable resources.</p>
+</li>
+</ol>
+<br>
 Feel free to contribute additional questions or improvements via pull requests.<br><br>
 💻 Happy coding and good luck with your interviews! 🚀
