@@ -44,6 +44,14 @@
 <h4 tabindex="-1" dir="auto"><a class="anchor" aria-hidden="true" tabindex="-1"></a>When to use Box and Column layout component?</h4>
 <p dir="auto"><b>Box</b> allows you to position its children elements absolutely. If you need to place elements at specific coordinates within the container, <b>Box</b> is the appropriate choice and If you have elements that need to overlap, <b>Box</b> provides a straightforward way to layer components on top of each other. <b>Column</b> is designed for vertical stacking of elements. If you want to arrange elements in a single column, use <b>Column</b> and When you need a simple linear vertical layout, <b>Column</b> provides an easy and concise way to arrange your UI elements.</p>
 </li>
+<li>
+<h4 tabindex="-1" dir="auto"><a class="anchor" aria-hidden="true" tabindex="-1"></a>What is the role of the Modifier in Jetpack Compose?</h4>
+<p dir="auto">The Modifier is used to customize and apply transformations to UI elements in Jetpack Compose. It allows you to specify properties such as size, padding, alignment, background color, and more. Modifiers can be chained together to apply multiple transformations to a single UI element.</p>
+</li>
+<li>
+<h4 tabindex="-1" dir="auto"><a class="anchor" aria-hidden="true" tabindex="-1"></a>How does Jetpack Compose integrate with existing Android frameworks and libraries?</h4>
+<p dir="auto">Jetpack Compose can be integrated with existing Android frameworks and libraries by using interoperability features. Compose provides compatibility libraries to bridge the gap between Compose and existing View-based UI components. Additionally, Compose supports the embedding of traditional View-based components within Composable functions using the AndroidView or ComposeView APIs.</p>
+</li>
 </ol>
 <br>
 Feel free to contribute additional questions or improvements via pull requests.<br><br>
