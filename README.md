@@ -52,6 +52,18 @@
 <h4 tabindex="-1" dir="auto"><a class="anchor" aria-hidden="true" tabindex="-1"></a>How does Jetpack Compose integrate with existing Android frameworks and libraries?</h4>
 <p dir="auto">Jetpack Compose can be integrated with existing Android frameworks and libraries by using interoperability features. Compose provides compatibility libraries to bridge the gap between Compose and existing View-based UI components. Additionally, Compose supports the embedding of traditional View-based components within Composable functions using the AndroidView or ComposeView APIs.</p>
 </li>
+<li>
+<h4 tabindex="-1" dir="auto"><a class="anchor" aria-hidden="true" tabindex="-1"></a>How is navigation handled in Jetpack Compose?</h4>
+<p dir="auto">Navigation in Jetpack Compose is handled using the Navigation Compose library. It introduces the concept of navigation graphs, where each screen or destination is represented by a composable function. The navigation graph defines the connections between destinations, and navigation actions can be triggered using predefined navigation methods.</p>
+</li>
+<li>
+<h4 tabindex="-1" dir="auto"><a class="anchor" aria-hidden="true" tabindex="-1"></a>What are the best practices for performance optimization in Jetpack Compose?</h4>
+<p dir="auto">Some best practices for performance optimization in Jetpack Compose include:
+Minimize unnecessary recompositions by using immutable state objects and avoiding excessive state changes.
+Use the remember function to cache expensive computations and avoid unnecessary recomputations.
+Use the key parameter to explicitly control the identity of Composable functions and optimize the diffing algorithm.
+Use LaunchedEffect and other coroutine-based APIs to perform asynchronous operations off the main thread and ensure smooth and responsive user interfaces in Jetpack Compose.</p>
+</li>
 </ol>
 <br>
 Feel free to contribute additional questions or improvements via pull requests.<br><br>
