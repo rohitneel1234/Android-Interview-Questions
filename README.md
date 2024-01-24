@@ -2,7 +2,7 @@
 # Interview Questions Repository
 
 📚 Welcome to the interview questions repository!<br>
-🌟 Here, you'll find a curated list of interview questions collected from various reputable sources. This compilation provides a comprehensive resource for preparing for technical interviews.
+🌟 Here, you'll find a curated list of interview questions collected from various reputable sources. This compilation provides a comprehensive resource for preparing technical interviews.
 
 ## Android
 <ul dir="auto">
