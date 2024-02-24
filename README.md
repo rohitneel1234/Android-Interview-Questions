@@ -22,6 +22,89 @@
 </ul>
 <br>
 
+## OOPS
+<ul dir="auto">
+<li>Difference Between abstraction and polymorphism</li>
+<li>Access Providers OOP</li>
+<li>Virtual functions</li>
+<li>Can an Interface implement another Interface?</li>
+<li>Difference between method overloading and overriding.</li>
+</ul><br>
+
+## List of Android Interview questions
+<ul dir="auto">
+<li>Singleton class java</li>
+<li>@JvmStatic, @JvmField, @JvmOverload</li>
+<li>MVVM design pattern</li>
+<li>Data binding</li>
+<li>Difference between one way and two-way data binding</li>
+<li>Rxjava</li>
+<li>What is activity</li>
+<li>What is fragment</li>
+<li>Life cycle of activity and fragment</li>
+<li>Fragment backstack</li>
+<li>How to share activity viewmodel with its fragments</li>
+<li>How to load image using data binding</li>
+<li>Android proguard</li>
+<li>Android proguard rules</li>
+<li>Types of Permissions</li>
+<li>Android manifest file</li>
+<li>Broadcast receivers</li>
+<li>Types of services</li>
+<li>Difference between sticky intent and pending intents</li>
+<li>Implicit and explicit intents</li>
+<li>Difference between service and intent service</li>
+<li>What is ANR</li>
+<li>R8, delvik</li>
+<li>Dependency Injection</li>
+<li>Relationship between activity and fragment life cycle</li>
+<li>Type of activity launch modes</li>
+<li>Content Providers</li>
+<li>foreground service vs Background service</li>
+<li>AsyncTask vs Thread vs Service</li>
+<li>AsyncTask life cycle during activity rotation</li>
+<li>Alternative of AsncTask(Deprecated in api level 30)</li>
+</ul><br>
+
+## Android Jetpack
+<ul dir="auto">
+<li>What is Android Jetpack and why to use this?</li>
+<li>What is a ViewModel and how is it useful?</li>
+<li>What are Android Architecture Components?</li>
+<li>What is LiveData in Android?</li>
+<li>How LiveData is different from ObservableField?</li>
+<li>What is the difference between setValue and postValue in LiveData?</li>
+<li>How to share ViewModel between Fragments in Android?</li>
+<li>Explain WorkManager and its use cases.</li>
+<li>How does ViewModel work internally?</li>
+</ul><br>
+
+## Kotlin
+<ul dir="auto">
+<li>What is kotlin</li>
+<li>What is the difference between ?. and !!</li>
+<li>Difference between lateinit and lazy.</li>
+<li>Kotlin inline function</li>
+<li>Kotlin scope functions</li>
+<li>What are Higher-Order functions in Kotlin?</li>
+<li>Kotlin high level and lambda function</li>
+<li>What are Data Classes in Kotlin?</li>
+<li>Kotlin delegates</li>
+<li>What is the difference between var and val?</li>
+<li>Kotlin val Vs constant</li>
+<li>Kotlin Sealed Classes</li>
+<li>Design pattern</li>
+<li>Architecture patterns</li>
+<li>SOLID principles</li>
+<li>extension function</li>
+<li>coroutines vs Rxjava</li>
+<li>Explain Coroutine LifecycleScope.</li>
+<li>Serialisation vs parcelable</li>
+<li>Kotlin unified</li>
+<li>Room vs Realm? Why not Realm?</li>
+<li>Explain the use-case of let, run, with, also, apply in Kotlin</li>
+</ul><br>
+
 ## Jetpack Compose Design
 <ol dir="auto">
 <li>
@@ -66,5 +149,42 @@ Use LaunchedEffect and other coroutine-based APIs to perform asynchronous operat
 </li>
 </ol>
 <br>
-Feel free to contribute additional questions or improvements via pull requests.<br><br>
+
+## Android Roadmap 2024
+| Topics | Sub-Topics |
+|  --- | --- |
+| Programming Languages | <li>Kotlin</li><li>Java</li> |
+| Android Architecture | ![image](https://developer.android.com/static/guide/platform/images/android-stack_2x.png) |
+| Runtime | <li>Dalvik Virtual Machine</li><li>Android Runtime</li> |
+| Android Manifest | <li>Package</li><li>Application Id</li> |
+| Permissions | <li>Install-time Permissions</li> <li>Special Permissions</li> <li>Runtime Permissions</li><li>Permissions Groups</li>|
+| Android Build | <li>APK</li><li>AAB</li> |
+|Thread|<li>Processes</li><li>Threads</li><li>Inter Process Communication</li><li>Handlers</li><li>Loopers</li><li>Message Queue</li><li>UI Thread</li><li>Background Thread</li><li>Heap & Stack</li>|
+| Fundamental Components | <li>Activity</li><li>Services</li><li>Broadcast Receiver</li><li>Content Provider</li>|
+| Intent |<li>Implicit Intent</li><li>Explicit Intent</li><li>Intent Filters</li><li>Intent Flags</li>|
+|Activity|<li>Activity Lifecycle</li><li>Tasks and Back Stacks</li><li>Bundles</li><li>Parcelables</li><li>Recent Screens</li><li>App Shortcuts</li><li>Context</li>|
+|Services|<li>Service Lifecycle</li><li>Foreground Service</li><li>Background Service</li><li>Bound Service</li><li>AIDL</li><li>Job Scheduler</li><li>WorkManager</li><li>IntentService</li>|
+|Broadcast Receiver|<li>Pub-Sub</li><li>System Broadcast</li><li>Permissions</li><li>Security</li>|
+|Content Provider|<li>Content Resolver</li><li>Cursor</li><li>MIME Types</li><li>Contracts</li>|
+|Data Storage|<li>App Specific Storage</li><li>Shared Storage</li><li>Preferences</li><li>Database</li><li>Scoped Storage</li><li>LRU Cache</li><li>SQLite</li><li>ROOM</li><li>Data Store</li>|
+|Fragments|<li>Fragment Lifecycle</li><li>Dialog Fragment</li><li>Fragment Transactions</li><li>Fragment Manager</li><li>View Lifecycle</li><li>BackStack</li><li>Fragment-Activity Communication</li><li>Fragment-Fragment Communication</li>|
+|Navigation Component |<li>Host</li><li>Graph</li><li>Controller</li><li>Back Stacks</li><li>Destinations</li><li>Deeplink</li>|
+|Jetpack Components|<li>ViewModel</li><li>LiveData</li><li>Paging</li><li>Lifecycle</li><li>WorkManager</li><li>Data Binding</li>|
+|UI |<li>XML</li><li>Jetpack Compose</li>|
+|Jetpack Compose|<li>Composition</li><li>ReComposition</li><li>State Hoisting</li><li>Remember</li><li>RememberSaveable</li><li>Side Effects</li><li>LaunchedEffect</li><li>DisposableEffect</li><li>DerivedStateOf</li><li>SnapshotFlow</li><li>CompositionLocal</li><li>Theming</li><li>Modifier</li><li>Layouts</li><li>Box/Column/Row</li><li>Image/painter</li><li>Coil</li><li>LazyColumn/LayRow</li><li>Text/Button/ other ui components</li>|
+|Testing|<li>UI Testing</li><li>Unit Testing</li><li>Espresso</li><li>Robolectric</li><li>Mockk</li>|
+|Debugging|<li>Logcat</li><li>Timber</li><li>Break Points</li><li>Chucker</li><li>Charles</li><li>LeakCanary</li>|
+|Libraries|<li>Retrofit</li><li>OkHttp</li><li>Glide</li><li>Material3</li><li>Hilt</li><li>Dagger</li><li>Retrofit</li>|
+|Benchmark|<li>Micro Benchmark</li><li>Macro Benchmark</li>|
+|Static Analysis|<li>Ktlint</li><li>Detekt</li><li>Android Lint</li>|
+|GitHub Actions|<li>Pipeline</li><li>Build Generation</li><li>Workflow</li>|
+|Gradle|<li>Commands</li><li>Groovy</li>|
+|Common Errors|<li>ANR</li><li>App Crash</li><li>Fatal Error</li><li>OOM</li><li>ArrayOutOfBound</li>|
+|Proguard|<li>Obfuscation</li><li>Keep</li>|
+|Code Architecture|<li>MVP</li><li>MVVM</li><li>MVI</li><li>Modularization</li><li>Design Patterns</li><li>Network Layer</li><li>Data Layer</li><li>UI Layer</li><li>Domain/Repository/...</li>|
+|Firebase |<li>Crashlytics</li><li>Remote Config</li><li>A/B Testing</li>|
+|App Release|<li>App Release Process</li><li>App Distribution</li><li>Google Play Console</li><li>App Review/Ratings</li><li>App Size</li><li>App Policies</li>
+
+
+<br>Feel free to contribute additional questions or improvements via pull requests.<br><br>
 💻 Happy coding and good luck with your interviews! 🚀
